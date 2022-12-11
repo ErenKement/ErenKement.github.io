@@ -8,10 +8,12 @@
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
+      background-image: url('[PATH TO RENAISSANCE SCULPTURE IMAGE]');
+      background-size: cover;
     }
 
     header {
-      background-color: #333;
+      background-color: rgba(0, 0, 0, 0.7);
       color: white;
       padding: 20px;
       text-align: center;
@@ -22,7 +24,7 @@
     }
 
     nav {
-      background-color: #ccc;
+      background-color: rgba(0, 0, 0, 0.7);
       display: flex;
       justify-content: space-around;
     }
@@ -38,7 +40,7 @@
     }
 
     nav li a {
-      color: #333;
+      color: white;
       text-decoration: none;
       font-size: 18px;
     }
@@ -56,8 +58,35 @@
       height: auto;
     }
 
+    form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    label, input, textarea {
+      width: 100%;
+      margin-bottom: 10px;
+      padding: 5px;
+      font-size: 18px;
+    }
+
+    input, textarea {
+      border: 1px solid #ccc;
+    }
+
+    textarea {
+      resize: vertical;
+    }
+
+    button {
+      padding: 10px;
+      font-size: 18px;
+      cursor: pointer;
+    }
+
     footer {
-      background-color: #333;
+      background-color: rgba(0, 0, 0, 0.7);
       color: white;
       padding: 20px;
       text-align: center;
@@ -84,17 +113,5 @@
     <section id="projects">
       <h2>Projects</h2>
       <h3>Project 1</h3>
-      <p>Describe your first project here. Include any relevant details and screenshots.</p>
-      <img src="[PATH TO SCREENSHOT OF PROJECT 1]" alt="[PROJECT 1 NAME]">
-      <h3>Project 2</h3>
-      <p>Describe your second project here. Include any relevant details and screenshots.</p>
-      <img src="[PATH TO SCREENSHOT OF PROJECT 2]" alt="[PROJECT 2 NAME]">
-      <!-- Add additional project sections as needed -->
-    </section>
-    <section id="contact">
-      <h2>Contact</h2>
-      <p>Include your contact information and links to your social media profiles or other online presences here.</p>
-    </section>
-  </main>
-  <footer>
-    <p>Copyright (c)
+     
+
